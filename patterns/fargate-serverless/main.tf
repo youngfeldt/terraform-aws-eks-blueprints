@@ -32,7 +32,7 @@ data "aws_availability_zones" "available" {}
 
 locals {
   name     = basename(path.cwd)
-  region   = "us-west-2"
+  region   = "us-east-1"
   app_name = "app-2048"
 
   vpc_cidr = "10.0.0.0/16"
